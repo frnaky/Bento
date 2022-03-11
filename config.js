@@ -14,13 +14,13 @@ const CONFIG = {
   name: 'franky',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'good morning,',
   greetingAfternoon: 'good afternoon,',
   greetingEvening: 'good evening,',
-  greetingNight: 'go to sleep!',
+  greetingNight: 'go to sleep,',
 
   // Layout
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -32,8 +32,8 @@ const CONFIG = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '-33.907',
-  defaultLongitude: '-208.894',
+  defaultLatitude: '-33.907635',
+  defaultLongitude: '-208.894476',
 
   // Autochange
   autoChangeTheme: false,
@@ -85,7 +85,7 @@ const CONFIG = {
       id: '6',
       name: 'Youtube',
       icon: 'youtube',
-      link: 'https://youtube.com/',
+      link: 'https://youtube.com',
     },
   ],
 
@@ -135,46 +135,46 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'book',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Arch Wiki',
+          link: 'https://wiki.archlinux.org/',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Wikipedia',
+          link: 'https://www.wikipedia.org/',
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Google Slides',
+          link: 'https://docs.google.com/presentation/u/1/?tgif=c',
         },
         {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Google Docs',
+          link: 'https://docs.google.com/document/u/1/?tgif=c',
         },
       ],
     },
     {
-      icon: 'coffee',
+      icon: 'gamepad-2',
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'Lichess',
+          link: 'https://lichess.org/',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Chess',
+          link: 'https://www.chess.com/',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Globle',
+          link: 'https://globle-game.com/',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Wordle',
+          link: 'https://worldle.teuteuf.fr/',
         },
       ],
     },
