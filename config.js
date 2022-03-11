@@ -11,35 +11,35 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
-  imageBackground: false,
+  name: 'franky',
+  imageBackground: true,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'good morning,',
+  greetingAfternoon: 'good afternoon,',
+  greetingEvening: 'good evening,',
+  greetingNight: 'go to sleep 💤',
 
   // Layout
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-  weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherKey: '0d5ac4f76cc0307010b0787e26851485', // Write here your API Key
+  weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '-33.907635',
+  defaultLongitude: '-208.894476',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
   // Autochabge by OS
-  changeThemeByOS: true,
+  changeThemeByOS: false,
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: false,
@@ -61,19 +61,19 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://gmail.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'Classroom',
+      icon: 'graduation-cap',
+      link: 'https://classroom.google.com/u/1/h',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Movies',
+      icon: 'film',
+      link: 'https://moviecrumbs.pro/',
     },
     {
       id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'Youtube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com',
     },
   ],
 
@@ -135,46 +135,46 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'book',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Arch Wiki',
+          link: 'https://wiki.archlinux.org/',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Wikipedia',
+          link: 'https://www.wikipedia.org/,
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Google Slides',
+          link: 'https://docs.google.com/presentation/u/1/?tgif=c',
         },
         {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Google Docs',
+          link: 'https://docs.google.com/document/u/1/?tgif=c',
         },
       ],
     },
     {
-      icon: 'coffee',
+      icon: 'gamepad-2',
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'Lichess',
+          link: 'https://lichess.org/',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Chess',
+          link: 'https://www.chess.com/,
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Globle',
+          link: 'https://globle-game.com/,
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Wordle',
+          link: 'https://worldle.teuteuf.fr/',
         },
       ],
     },
