@@ -11,35 +11,35 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'franky',
+  name: 'John',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: true,
+  twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'good morning,',
-  greetingAfternoon: 'good afternoon,',
-  greetingEvening: 'good evening,',
-  greetingNight: 'go to sleep,',
+  greetingMorning: 'Good morning!',
+  greetingAfternoon: 'Good afternoon,',
+  greetingEvening: 'Good evening,',
+  greetingNight: 'Go to Sleep!',
 
   // Layout
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: '0d5ac4f76cc0307010b0787e26851485', // Write here your API Key
-  weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '-33.907635',
-  defaultLongitude: '-208.894476',
+  defaultLatitude: '37.775',
+  defaultLongitude: '-122.419',
 
   // Autochange
-  autoChangeTheme: false,
+  autoChangeTheme: true,
 
   // Autochabge by OS
-  changeThemeByOS: false,
+  changeThemeByOS: true,
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: false,
@@ -61,19 +61,19 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://gmail.com/',
+      link: 'https://mail.protonmail.com/',
     },
     {
       id: '3',
-      name: 'Classroom',
-      icon: 'graduation-cap',
-      link: 'https://classroom.google.com/u/1/h',
+      name: 'Todoist',
+      icon: 'trello',
+      link: 'https://todoist.com',
     },
     {
       id: '4',
-      name: 'Movies',
-      icon: 'film',
-      link: 'https://moviecrumbs.pro/',
+      name: 'Calendar',
+      icon: 'calendar',
+      link: 'https://calendar.google.com/calendar/r',
     },
     {
       id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Youtube',
+      name: 'Odysee',
       icon: 'youtube',
-      link: 'https://youtube.com',
+      link: 'https://odysee.com/',
     },
   ],
 
@@ -135,46 +135,46 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'book',
+      icon: 'music',
       id: '1',
       links: [
         {
-          name: 'Arch Wiki',
-          link: 'https://wiki.archlinux.org/',
+          name: 'Inspirational',
+          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         },
         {
-          name: 'Wikipedia',
-          link: 'https://www.wikipedia.org/,
+          name: 'Classic',
+          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         },
         {
-          name: 'Google Slides',
-          link: 'https://docs.google.com/presentation/u/1/?tgif=c',
+          name: 'Oldies',
+          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         },
         {
-          name: 'Google Docs',
-          link: 'https://docs.google.com/document/u/1/?tgif=c',
+          name: 'Rock',
+          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         },
       ],
     },
     {
-      icon: 'gamepad-2',
+      icon: 'coffee',
       id: '2',
       links: [
         {
-          name: 'Lichess',
-          link: 'https://lichess.org/',
+          name: 'Linkedin',
+          link: 'https://www.linkedin.com',
         },
         {
-          name: 'Chess',
-          link: 'https://www.chess.com/,
+          name: 'Dribbble',
+          link: 'https://www.dribbble.com',
         },
         {
-          name: 'Globle',
-          link: 'https://globle-game.com/,
+          name: 'Trello',
+          link: 'https://www.trello.com',
         },
         {
-          name: 'Wordle',
-          link: 'https://worldle.teuteuf.fr/',
+          name: 'Slack',
+          link: 'https://www.slack.com',
         },
       ],
     },
