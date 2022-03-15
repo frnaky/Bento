@@ -173,7 +173,7 @@ const CONFIG = {
           link: 'https://globle-game.com/',
         },
         {
-          name: 'Wordle',
+          name: 'Worldle',
           link: 'https://worldle.teuteuf.fr/',
         },
       ],
